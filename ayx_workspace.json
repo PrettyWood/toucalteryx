@@ -1,0 +1,43 @@
+{
+    "name": "toucalteryx",
+    "tool_category": "Python SDK Examples",
+    "package_icon_path": "configuration\\default_package_icon.png",
+    "author": "Eric Jolibois",
+    "company": "Toucan",
+    "copyright": "2023",
+    "description": "",
+    "ayx_cli_version": "1.1.0",
+    "backend_language": "python",
+    "backend_language_settings": {
+        "python_version": "3.8",
+        "requirements_local_path": "tool_backends\\requirements-local.txt",
+        "requirements_thirdparty_path": "tool_backends\\requirements-thirdparty.txt"
+    },
+    "tools": {
+        "Toucan": {
+            "backend": {
+                "tool_module": "ayx_plugins",
+                "tool_class_name": "Toucan"
+            },
+            "ui": {},
+            "configuration": {
+                "long_name": "Toucan",
+                "description": "",
+                "version": "1.0",
+                "search_tags": [],
+                "help_url": "https://help.alteryx.com/developer-help",
+                "icon_path": "configuration\\Toucan_1_0\\icon.png",
+                "input_anchors": {
+                    "Input": {
+                        "label": "",
+                        "allow_multiple": false,
+                        "optional": false
+                    }
+                },
+                "output_anchors": {},
+                "dcm_namespace": ""
+            }
+        }
+    },
+    "tool_version": "1.0"
+}
